@@ -7,5 +7,26 @@
 body{
     font-family: 'Poppins', sans-serif;
     height: 100vh;
-    background: url('./vortex2.png') no-repeat center center fixed;
+    background: linear-gradient(to bottom, #0f9cd9, #0ed0bd, #14a18a);
+    /* background: url('./vortex2.png') no-repeat center center fixed; */
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80px;
+    width: 100%;
+    position:sticky;
+    top: 0;
+    background:transparent;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.0.5);
+    backdrop-filter: blur(10px);
+    z-index: 999;
+}
+
+.navbar-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
