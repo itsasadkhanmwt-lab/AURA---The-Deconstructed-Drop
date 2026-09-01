@@ -57,6 +57,7 @@ body{
     transition: all 0.7s ease;
     border: 2px solid transparent;
     white-space: nowrap;
+    padding:3px 20px; 
 }
 
 .navbar-container .navbar-menu li a:hover{
@@ -64,6 +65,5 @@ body{
     border: 2px solid #0ed0bd;
     background: #0e69d0;
     border-radius: 5px;
-    padding: 5px 10px;
     color: #fff;
 }
