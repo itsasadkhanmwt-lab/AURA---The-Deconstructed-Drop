@@ -59,3 +59,11 @@ body{
     white-space: nowrap;
 }
 
+.navbar-container .navbar-menu li a:hover{
+    color: #162530;
+    border: 2px solid #0ed0bd;
+    background: #0e69d0;
+    border-radius: 5px;
+    padding: 5px 10px;
+    color: #fff;
+}
